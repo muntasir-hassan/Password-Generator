@@ -16,5 +16,5 @@ function createPassword() {
 copyBtn.addEventListener("click", () => {
   passwordBox.select();
   document.execCommand("copy");
-  passwordBox.blur();
+  //passwordBox.blur();
 });
